@@ -1,0 +1,213 @@
+.content-main
+  padding: 15px 125px 0 95px
+  margin: 0 auto
+  @media (max-width: 1040px)
+    padding: 15px 50px 0 50px
+    @media (max-width: 500px)
+      padding: 15px 20px 0 20px
+  &__carousel-block
+    border-radius: 5px
+    padding-bottom: 50px
+    margin: 15px auto
+    @media (max-width: 800px)
+      display: none
+  &__carousel
+    max-width: 100%
+  &__menu
+    display: grid
+    grid-template-columns: 2fr 1fr 1fr
+    grid-gap: 25px
+    @media (max-width: 800px)
+      grid-template-columns: 1fr 1fr
+      grid-gap: 15px
+  &__chicken
+    position: relative
+    grid-column-start: 1
+    grid-column-end: 2
+    grid-row-start: 1
+    grid-row-end: 2
+    @media (max-width: 800px)
+      grid-column-start: 1
+      grid-column-end: 3
+      grid-row-start: 7
+      grid-row-end: 8
+  &__eel
+    position: relative
+    grid-column-start: 2
+    grid-column-end: 3
+    grid-row-start: 1
+    grid-row-end: 2
+    @media (max-width: 800px)
+      grid-column-start: 1
+      grid-column-end: 2
+      grid-row-start: 6
+      grid-row-end: 7
+  &__corn-dog
+    position: relative
+    grid-column-start: 3
+    grid-column-end: 4
+    grid-row-start: 1
+    grid-row-end: 2
+    @media (max-width: 800px)
+      grid-column-start: 2
+      grid-column-end: 3
+      grid-row-start: 6
+      grid-row-end: 7
+  &__pizza
+    position: relative
+    grid-column-start: 1
+    grid-column-end: 2
+    grid-row-start: 2
+    grid-row-end: 3
+    @media (max-width: 800px)
+      display: none
+  &__stocks
+    position: relative
+    grid-column-start: 2
+    grid-column-end: 4
+    grid-row-start: 2
+    grid-row-end: 3
+    @media (max-width: 800px)
+      grid-column-start: 1
+      grid-column-end: 3
+      grid-row-start: 8
+      grid-row-end: 9
+  &__text
+    position: absolute
+    bottom: 10px
+    left: 10px
+    font-size: 24px
+    color: #FFFFFF
+    font-weight: 500
+    text-decoration: none
+    cursor: pointer
+    &:hover
+      color: #FF9846
+    @media (max-width: 500px)
+      font-size: 22px
+  &__text-top
+    position: absolute
+    top: 10px
+    left: 10px
+    font-size: 18px
+    color: #FFFFFF
+    font-weight: 500
+    text-decoration: none
+    cursor: pointer
+    &:hover
+      color: #FF9846
+  &__img
+    max-width: 100%
+  &__pizza-mini
+    display: none
+    @media (max-width: 800px)
+      position: relative
+      grid-column-start: 1
+      grid-column-end: 2
+      grid-row-start: 1
+      grid-row-end: 2
+      display: block
+  &__set-mini
+    display: none
+    @media (max-width: 800px)
+      position: relative
+      grid-column-start: 2
+      grid-column-end: 3
+      grid-row-start: 1
+      grid-row-end: 2
+      display: block
+  &__wok-mini
+    display: none
+    @media (max-width: 800px)
+      position: relative
+      grid-column-start: 1
+      grid-column-end: 2
+      grid-row-start: 2
+      grid-row-end: 3
+      display: block
+  &__roles-mini
+    display: none
+    @media (max-width: 800px)
+      position: relative
+      grid-column-start: 2
+      grid-column-end: 3
+      grid-row-start: 2
+      grid-row-end: 3
+      display: block
+  &__sushi-mini
+    display: none
+    @media (max-width: 800px)
+      position: relative
+      grid-column-start: 1
+      grid-column-end: 2
+      grid-row-start: 3
+      grid-row-end: 4
+      display: block
+  &__soup-mini
+    display: none
+    @media (max-width: 800px)
+      position: relative
+      grid-column-start: 2
+      grid-column-end: 3
+      grid-row-start: 3
+      grid-row-end: 4
+      display: block
+  &__salad-mini
+    display: none
+    @media (max-width: 800px)
+      position: relative
+      grid-column-start: 1
+      grid-column-end: 2
+      grid-row-start: 4
+      grid-row-end: 5
+      display: block
+  &__water-mini
+    display: none
+    @media (max-width: 800px)
+      position: relative
+      grid-column-start: 2
+      grid-column-end: 3
+      grid-row-start: 4
+      grid-row-end: 5
+      display: block
+  &__kombo-mini
+    display: none
+    @media (max-width: 800px)
+      position: relative
+      grid-column-start: 1
+      grid-column-end: 3
+      grid-row-start: 5
+      grid-row-end: 6
+      display: block
+  &__img-mini
+    max-width: 100%
+
+
+.content-compilation
+  margin-top: 50px
+  @media (max-width: 800px)
+    display: none
+  &__text
+    margin-bottom: 30px
+    padding-left: 95px
+    &__link
+      margin-right: 30px
+      text-decoration: none
+      color: #000000
+      font-size: 24px
+      font-weight: 500
+      &:hover
+        cursor: pointer
+        color: #FF9846
+  &__card
+    display: flex
+    justify-content: space-between
+    &__arrow-l
+      padding-left: 10px
+    &__arrow-r
+      padding-right: 40px
+
+
+.card1
+  @media (max-width: 1150px)
+    display: none

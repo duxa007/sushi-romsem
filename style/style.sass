@@ -13,6 +13,11 @@
   src: url("../fonts/dinpro_medium.otf")
   font-weight: 500
   font-style: normal
+@font-face
+  font-family: "dinpro"
+  src: url("../fonts/dinpro_black.otf")
+  font-weight: 700
+  font-style: normal
 .body
   background-color: #F2F2F2
   margin: 0 auto
@@ -25,10 +30,13 @@
   max-width: 1920px
   margin: 0 auto
   position: relative
-  @media (max-width: 1900px)
+  @media (max-width: 1919px)
     max-width: 1505px
   @media (max-width: 1505px)
     max-width: 1170px
+    display: block
+
+
 .menu
   text-align: center
   padding: 0 55px 0 100px
@@ -66,22 +74,24 @@
     color: #FFF
   &:hover
     color: #FF9846
+    cursor: pointer
+
+
 .content
   background-color: #F2F2F2
   margin: 0 415px 0 335px
+  @media (max-width: 1919px)
+    margin: 0 0 0 335px
   @media (max-width: 1505px)
     margin: 0
 .content-nav
   display: flex
   justify-content: space-between
-  padding: 20px 0 0
+  padding-top: 20px
   border-bottom: 1px solid #A4ACAD
-  width: 1170px
   margin: 0 auto
-  @media (max-width: 1170px)
-    width: 1100px
-  @media (max-width: 1100px)
-    width: 1000px
+  @media (max-width: 900px)
+    padding: 0
   &__left
     display: flex
     align-items: center
@@ -90,6 +100,8 @@
     display: none
     @media (max-width: 1505px)
       display: block
+    @media (max-width: 800px)
+      display: none
     &__text
       margin: 0 auto
       text-align: center
@@ -99,6 +111,12 @@
       font-size: 16px
       &:hover
         color: #FF9846
+  &__logo
+    padding: 15px 0
+    @media (max-width: 900px)
+      padding: 15px
+    @media (max-width: 500px)
+      padding: 15px 0
   &__img
     max-width: 60px
     padding: 0 10px
@@ -110,10 +128,18 @@
     font-weight: 500
     padding-right: 20px
     border-right: 1px solid #A4ACAD
+    @media (max-width: 900px)
+      padding: 15px
+    @media (max-width: 500px)
+      padding: 15px 5px
+      font-size: 12px
+      border-right: 0
     &__top
       font-size: 18px
       margin: 0
       text-align: center
+      @media (max-width: 500px)
+        font-size: 12px
     &__phone
       margin: 0
       color: #FF9846
@@ -125,11 +151,15 @@
       margin: 0
       text-align: center
       padding: 5px 0 7px 18px
+      @media (max-width: 900px)
+        display: none
     &__time-img
       padding-right: 5px
       text-align: center
   &__sity
     padding-left: 10px
+    @media (max-width: 1000px)
+      display: none
     &__top
       font-weight: 300
       color: #A4ACAD
@@ -142,6 +172,18 @@
   &__right
     display: flex
     align-items: center
+  &__time
+    color: #A4ACAD
+    font-size: 14px
+    margin: 0
+    text-align: center
+    padding: 3px 20px
+    display: none
+    @media (max-width: 900px)
+      display: block
+      padding: 3px 5px
+    @media (max-width: 500px)
+      font-size: 12px
   &__text
     font-size: 18px
     text-decoration: none
@@ -149,19 +191,25 @@
     padding-right: 15px
     &:hover
       color: #FF9846
+    @media (max-width: 900px)
+      display: none
   &__basket
     padding: 0 10px
     text-align: center
     display: none
-    @media (max-width: 1900px)
+    @media (max-width: 1919px)
       display: block
+    @media (max-width: 800px)
+      display: none
+
+      
 .order
   text-align: center
   width: 415px
   position: fixed
   padding-left: 1505px
   margin: 0 auto
-  @media (max-width: 1900px)
+  @media (max-width: 1919px)
     display: none
 .basket
   margin: 55px 0 0 25px
@@ -208,68 +256,114 @@
     margin: 0 auto
 
 
-
-
-
-.content-main
-  padding: 15px 125px 0 95px
-  &__carousel
-    margin: 15px auto
-    max-width: 100%
-    border-radius: 5px
-    padding-bottom: 50px
-  &__menu
-    display: grid
-    grid-template-columns: 450px 224px 224px
-    grid-gap: 25px
-  &__chicken
-    position: relative
-    grid-column-start: 1
-    grid-column-end: 2
-    grid-row-start: 1
-    grid-row-end: 2
-  &__eel
-    position: relative
-    grid-column-start: 2
-    grid-column-end: 3
-    grid-row-start: 1
-    grid-row-end: 2
-  &__corn-dog
-    position: relative
-    grid-column-start: 3
-    grid-column-end: 4
-    grid-row-start: 1
-    grid-row-end: 2
-  &__pizza
-    position: relative
-    grid-column-start: 1
-    grid-column-end: 2
-    grid-row-start: 2
-    grid-row-end: 3
-  &__stocks
-    position: relative
-    grid-column-start: 2
-    grid-column-end: 4
-    grid-row-start: 2
-    grid-row-end: 3
-  &__text
-    position: absolute
-    top: 165px
-    left: 10px
+.content-text
+  margin: 0 auto
+  padding: 0 125px 0 95px
+  @media (max-width: 1040px)
+    padding: 15px 50px 0 50px
+  @media (max-width: 500px)
+    padding: 15px 20px 0 20px
+  &__title
+    font-weight: 700
     font-size: 24px
-    color: #FFFFFF
-    font-weight: 500
+    color: #A4ACAD
+  &__subtitle
+    font-size: 18px
+    color: #A4ACAD
+.content-button
+  text-align: center
+  padding: 40px 0 60px
+  &__link
+    color: #F46D40
+    font-size: 24px
     text-decoration: none
-    cursor: pointer
+
+
+.content-line
+  border-top: 1px solid #A4ACAD
+  margin: 0 125px 22px 95px
+  @media (max-width: 1040px)
+    margin: 0 50px 22px
+  @media (max-width: 500px)
+    margin: 0 20px 22px
+
+
+.content-footer
+  margin: 0 125px 20px 95px
+  display: grid
+  grid-template-columns: repeat(3, 1fr)
+  @media (max-width: 1040px)
+    margin: 0 50px 20px
+  @media (max-width: 800px)
+    display: block
+    text-align: center
+  &__social
+    max-width: 190px
+    padding-bottom: 25px
+    display: flex
+    justify-content: space-between
+    @media (max-width: 800px)
+      margin: 0 auto
+  &__social-img
+    opacity: 50%
     &:hover
+      cursor: pointer
+      opacity: 100%
+.content-footer-left
+  @media (max-width: 800px)
+    display: none
+  &__link
+    font-size: 18px
+    text-decoration: none
+    color: black
+    &:hover
+      cursor: pointer
       color: #FF9846
-  &__img
-    max-width: 100%
+.content-footer-center
+  padding-left: 40px
+  min-width: 240px
+  border-left: 1px solid #A4ACAD
+  border-right: 1px solid #A4ACAD
+  @media (max-width: 900px)
+    padding-left: 20px
+  @media (max-width: 800px)
+    border: none
+  &__text-number
+    font-weight: 500
+    font-size: 18px
+    @media (max-width: 800px)
+      display: none
+.input-number
+  background-color: #F2F2F2
+  border: #F2F2F2 1px solid
+  border-bottom: #A4ACAD 1px solid
+  @media (max-width: 800px)
+    display: none
+.content-footer-right
+  padding-left: 40px
+  min-width: 170px
+  @media (max-width: 900px)
+    padding-left: 20px
+  @media (max-width: 800px)
+    padding-bottom: 100px
+  &__text
+    color: #A4ACAD
+    font-size: 18px
+    margin: 3px 0
 
 
-
-
-
-
-
-
+.footer
+  padding: 11px 90px
+  position: fixed
+  bottom: 0
+  left: 0
+  right: 0
+  background-color: #FFFFFF
+  justify-content: space-between
+  display: none
+  @media (max-width: 800px)
+    display: flex
+  @media (max-width: 400px)
+    padding: 11px 70px
+  &__menu
+    text-align: center
