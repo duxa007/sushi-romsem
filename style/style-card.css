@@ -7,7 +7,10 @@
     font-weight: 500;
     font-size: 24px;
     margin-top: 30px;
-    padding-left: 17px; }
+    padding-left: 17px;
+    height: 56px;
+    display: flex;
+    align-items: center; }
   .card__subtitle {
     color: #A4ACAD;
     font-size: 18px;
