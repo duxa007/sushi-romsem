@@ -1,30 +1,57 @@
 .card
   background-color: #FFFFFF
-  margin-bottom: 50px
   &__img
     padding: 1px 19px 30px
+    max-width: 100%
+    @media (max-width: 700px)
+      padding: 1px 10px
+      max-width: 200px
+    @media (max-width: 550px)
+      max-width: 100px
+      height: 84px
+      padding: 1px 0 0 10px
   &__title
     font-weight: 500
     font-size: 24px
     margin-top: 30px
     padding-left: 17px
     height: 56px
-    display: flex
+    //display: flex
     align-items: center
+    &__dop
+      display: block
+      @media (max-width: 550px)
+        display: inline
+    @media (max-width: 700px)
+      font-size: 18px
+      height: auto
+    @media (max-width: 550px)
+      margin: 5px 0
+      font-size: 14px
   &__subtitle
     color: #A4ACAD
     font-size: 18px
     padding-left: 17px
+    @media (max-width: 700px)
+      font-size: 18px
+    @media (max-width: 550px)
+      font-size: 14px
   &__footer
     border-top: 1px solid #A4ACAD
     display: flex
     justify-content: space-between
     align-items: center
+    @media (max-width: 800px)
+      border: none
   &__price
     font-size: 24px
     font-weight: 700
     padding-left: 17px
     margin: 18px 0 13px
+    @media (max-width: 800px)
+      padding: 0 17px
+    @media (max-width: 700px)
+      font-size: 18px
   &__button
     color: #F2F2F2
     background-color: #F46D40
@@ -32,5 +59,21 @@
     width: 143px
     height: 40px
     margin-right: 9px
+    font-weight: 500
+    font-size: 24px
     &:hover
       cursor: pointer
+    @media (max-width: 800px)
+      width: 95px
+      height: 26px
+      font-size: 18px
+  @media (max-width: 800px)
+    display: flex
+    align-items: center
+    max-width: 550px
+    margin: 20px auto
+    border-radius: 10px
+  @media (max-width: 700px)
+    max-width: 450px
+  @media (max-width: 550px)
+    max-width: 330px

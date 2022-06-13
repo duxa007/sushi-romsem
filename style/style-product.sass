@@ -1,0 +1,84 @@
+.content-product
+  max-width: 950px
+  margin: 32px auto
+  &__nav
+    position: relative
+    display: flex
+    justify-content: space-between
+    margin-bottom: 30px
+    @media (max-width: 1050px)
+      max-width: 620px
+      margin: 0 auto 30px
+    @media (max-width: 800px)
+      display: block
+      text-align: center
+  &__nav-name
+    padding-left: 20px
+    font-size: 36px
+    margin: 0
+  &__nav-left
+    display: flex
+    @media (max-width: 800px)
+      justify-content: center
+  &__nav-right
+    background-color: #FFFFFF
+    padding: 5px 15px
+    border-radius: 15px 15px 0 0
+    position: absolute
+    right: 0
+    @media (max-width: 800px)
+      display: none
+
+
+.sort
+  &__main-title
+    color: #A4ACAD
+    font-weight: 300
+    font-size: 14px
+    margin: 2px
+  &__main-subtitle
+    display: flex
+    justify-content: space-between
+    border-bottom: 1px solid #A4ACAD
+  &__text
+    margin: 10px 0
+    color: #111111
+    font-size: 18px
+    &:hover
+      cursor: pointer
+      color: #FF9846
+  @media (max-width: 800px)
+    display: none
+
+
+.sort-mini
+  background-color: #FFFFFF
+  max-width: 330px
+  margin: 15px auto
+  justify-content: space-between
+  align-items: center
+  border-radius: 10px
+  display: none
+  &__left
+    margin-left: 20px
+    display: flex
+  &__left-text
+    margin: 10px 15px
+    font-size: 24px
+  &__right-img
+    margin-right: 20px
+  @media (max-width: 800px)
+    display: flex
+
+
+.content-product-grid
+  display: grid
+  grid-gap: 40px
+  grid-template-columns: repeat(3, 290px)
+  justify-content: center
+  @media (max-width: 1050px)
+    grid-template-columns: repeat(2, 290px)
+  @media (max-width: 800px)
+    display: block
+    margin: 0 auto
+
