@@ -209,31 +209,12 @@
 .order
   text-align: center
   position: fixed
+  padding-left: 25px
   @media (max-width: 1919px)
     display: none
-.basket
-  margin: 55px 0 0 25px
-  width: 290px
-.basket-main
-  border-radius: 5px 5px 0 0
-  background-color: #F2F2F2
-  &__title
-    padding-top: 15px
-    font-weight: 500
-    font-size: 24px
-    margin: 0 auto
-  &__subtitle
-    padding: 15px 0 26px
-    color: #A4ACAD
-    font-size: 18px
-    margin: 0 auto
-.basket-footer
-  background-color: #FF9846
-  color: #F2F2F2
-  padding: 12px 0
-  border-radius: 0 0 5px 5px
+
 .map
-  margin: 20px 0 0 25px
+  margin: 20px auto 0
   position: relative
   width: 290px
 .map-main
@@ -241,6 +222,21 @@
     position: absolute
     top: 80px
     left: 115px
+  &__big-map
+    width: 350px
+    margin: 0 0 15px -15px
+    position: relative
+  &__big-map-img
+    max-width: 100%
+  &__button
+    color: #F2F2F2
+    font-size: 18px
+    padding: 15px 50px
+  &__button-div
+    margin: 20px auto 150px
+    background-color: #F46D40
+    padding: 15px 0
+    border-radius: 5px
 .map-footer
   border-radius: 0 0 5px 5px
   background-color: #F2F2F2
@@ -254,6 +250,35 @@
     color: #A4ACAD
     font-size: 18px
     margin: 0 auto
+.map-top
+  margin: -50px auto 0
+  &__title
+    font-size: 12ps
+    font-weight: 400
+    color: #A4ACAD
+  &__input
+    border: #F2F2F2 1px solid
+    border-bottom: #A4ACAD 1px solid
+    width: 300px
+  &__time
+    background-color: #FF9846
+    border-radius: 0px 0px 5px 5px
+    display: flex
+    justify-content: center
+    margin: 5px 0 17px
+  &__time-text
+    margin: 1px 0
+    font-size: 14px
+    font-weight: 400
+    color: #FFFFFF
+    text-align: initial
+    padding-left: 5px
+.map-desktop
+  margin: 20px auto 0
+  position: relative
+  max-width: 400px
+
+
 
 
 .content-line

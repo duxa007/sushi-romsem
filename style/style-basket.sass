@@ -1,0 +1,231 @@
+.basket-desktop
+  margin: 0 auto
+  text-align: center
+  padding: 0 20px
+  max-width: 290px
+.basket
+  margin: 55px auto
+  &__mini-div
+    margin: 50px auto
+    background-color: #F46D40
+    padding: 15px 0
+    border-radius: 5px
+    display: none
+    @media (max-width: 500px)
+      display: block
+    &__empty
+      margin: 50px auto
+      background-color: #F46D40
+      padding: 15px 0
+      border-radius: 5px
+  &__mini-bottom
+    color: #F2F2F2
+    font-size: 18px
+    padding: 15px 50px
+.basket-main
+  border-radius: 5px 5px 0 0
+  background-color: #F2F2F2
+  &__title
+    padding: 15px 0
+    font-weight: 500
+    font-size: 24px
+    margin: 0 auto
+  &__subtitle
+    padding: 15px 0 26px
+    color: #A4ACAD
+    font-size: 18px
+    margin: 0 auto
+.basket-footer
+  background-color: #FF9846
+  color: #F2F2F2
+  padding: 12px 0
+  border-radius: 0 0 5px 5px
+.basket-product
+  display: flex
+  justify-content: center
+  background-color: #FFFFFF
+  border-radius: 10px
+  &__title
+    font-size: 18px
+    font-weight: 400
+    white-space: nowrap
+    overflow: hidden
+    text-overflow: ellipsis
+    width: 200px
+    margin: 0
+    padding-top: 12px
+    //@media (max-width: 500px)
+    //  font-size: 18px
+    //  width: 200px
+  &__img
+    max-width: 70px
+    max-height: 47px
+    padding: 10px 7px
+    //@media (max-width: 500px)
+    //  max-width: 70px
+    //  max-height: 47px
+  &__quantity
+    margin: 0
+    padding: 0 15px
+    font-size: 18px
+    font-weight: 700
+    //@media (max-width: 500px)
+    //  font-size: 18px
+  &__quantity-img
+    max-width: 20px
+    max-height: 20px
+    //@media (max-width: 500px)
+    //  max-width: 20px
+    //  max-height: 20px
+  &__bottom
+    display: flex
+    justify-content: space-between
+    padding: 3px 0 0 0
+    //@media (max-width: 500px)
+    //  padding: 3px 0 0 0
+  &__bottom-left
+    display: flex
+    align-items: center
+  &__price
+    margin: 0
+    font-size: 18px
+    font-weight: 700
+    padding-right: 10px
+    //@media (max-width: 500px)
+    //  font-size: 18px
+.basket-down
+  display: flex
+  justify-content: space-between
+  max-width: 320px
+  padding: 50px 0
+  margin: 0 auto
+  align-items: center
+  //@media (max-width: 500px)
+  //  display: none
+  &__price
+    font-weight: 700
+    font-size: 22px
+    margin: 0
+  &__button
+    color: #F2F2F2
+    font-size: 18px
+    background-color: #F46D40
+    padding: 5px 24px
+    border-radius: 5px
+
+
+.basket-mobile
+  margin: 0 auto
+  text-align: center
+  padding: 0 20px
+  max-width: 500px
+  font-family: "dinpro"
+.basket-product-mobile
+  display: flex
+  justify-content: center
+  background-color: #FFFFFF
+  border-radius: 10px
+  &__title
+    font-size: 22px
+    font-weight: 400
+    white-space: nowrap
+    overflow: hidden
+    text-overflow: ellipsis
+    width: 300px
+    margin: 0
+    padding-top: 12px
+    @media (max-width: 500px)
+      font-size: 18px
+      width: 200px
+  &__img
+    max-width: 140px
+    max-height: 96px
+    padding: 10px 7px
+    @media (max-width: 500px)
+      max-width: 70px
+      max-height: 47px
+  &__quantity
+    margin: 0
+    padding: 0 15px
+    font-size: 22px
+    font-weight: 700
+    @media (max-width: 500px)
+      font-size: 18px
+  &__quantity-img
+    max-width: 40px
+    max-height: 40px
+    @media (max-width: 500px)
+      max-width: 20px
+      max-height: 20px
+  &__bottom
+    display: flex
+    justify-content: space-between
+    padding: 13px 10px
+    align-items: center
+    @media (max-width: 500px)
+      padding: 3px 0 0 0
+  &__bottom-left
+    display: flex
+    align-items: center
+  &__price
+    margin: 0
+    font-size: 24px
+    font-weight: 700
+    padding-right: 10px
+    @media (max-width: 500px)
+      font-size: 18px
+.basket-down-mobile
+  display: flex
+  justify-content: space-between
+  max-width: 400px
+  padding: 50px 0
+  margin: 0 auto
+  align-items: center
+  @media (max-width: 500px)
+    display: none
+  &__price
+    font-weight: 700
+    font-size: 26px
+    margin: 0
+  &__button
+    color: #F2F2F2
+    font-size: 20px
+    background-color: #F46D40
+    padding: 7px 28px
+    border-radius: 5px
+
+.basket-total
+  margin: 15px auto
+  text-align: center
+  padding: 0 20px
+  max-width: 500px
+  border-radius: 10px
+  background-color: #FFFFFF
+  &__title
+    font-weight: 500
+    font-size: 24px
+    color: #FF9846
+    margin: 2px auto
+  &__subtitle
+    padding: 15px 40px
+    display: flex
+    justify-content: space-between
+    border-bottom: 1px solid #A4ACAD
+  &__subtitle-left
+    font-weight: 400
+    font-size: 24px
+    margin: 0
+    @media (max-width: 500px)
+      font-size: 18px
+  &__subtitle-right
+    font-weight: 500
+    font-size: 24px
+    margin: 0
+    @media (max-width: 500px)
+      font-size: 18px
+.basket-empty
+  max-width: 400px
+  margin: 0 auto
+  &__map
+    max-width: 320px
+    margin: 0 auto
