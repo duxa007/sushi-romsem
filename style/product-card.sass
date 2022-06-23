@@ -25,6 +25,7 @@
   @media (max-width: 550px)
     margin: 0 10px
   &__img
+    max-width: 100%
     @media (max-width: 1050px)
       max-width: 550px
     @media (max-width: 970px)
@@ -35,6 +36,9 @@
       max-width: 310px
   &__info
     padding-left: 20px
+    min-width: 375px
+    @media (max-width: 1100px)
+      min-width: auto
     @media (max-width: 800px)
       padding-left: 0
   &__title

@@ -21,7 +21,7 @@
 .body {
   background-color: #F2F2F2;
   margin: 0 auto; }
-  @media (min-width: 1505px) {
+  @media (min-width: 1150px) {
     .body {
       background-color: white; } }
 
@@ -32,22 +32,28 @@
   max-width: 1920px;
   margin: 0 auto;
   position: relative; }
-  @media (max-width: 1919px) {
-    .general {
-      max-width: 1505px; } }
-  @media (max-width: 1505px) {
-    .general {
-      max-width: 1170px;
-      display: block; } }
+
+input {
+  outline: none; }
 
 .menu {
+  width: 16.6%;
   text-align: center;
-  padding: 0 55px 0 100px;
-  width: 180px;
-  position: fixed; }
+  position: sticky; }
   @media (max-width: 1505px) {
     .menu {
-      display: none; } }
+      width: 22%; } }
+  @media (max-width: 1420px) {
+    .menu {
+      width: 18%; } }
+  @media (max-width: 1150px) {
+    .menu {
+      display: none;
+      width: 0; } }
+
+.menu-container {
+  max-width: 180px;
+  margin: 0 auto; }
 
 .menu-logo:first-child {
   padding: 30px 0 10px; }
@@ -83,15 +89,18 @@
     color: #FFF; }
 
 .order-wrapper {
-  position: absolute;
-  width: 415px;
-  right: 0; }
+  width: 22.4%; }
+  @media (max-width: 1505px) {
+    .order-wrapper {
+      width: 0; } }
 
 .order {
   text-align: center;
-  position: fixed;
+  position: sticky;
+  max-width: 290px;
+  margin: 0 auto;
   padding-left: 25px; }
-  @media (max-width: 1919px) {
+  @media (max-width: 1505px) {
     .order {
       display: none; } }
 
@@ -117,7 +126,7 @@
 .map-main__button-div {
   margin: 20px auto 150px;
   background-color: #F46D40;
-  padding: 15px 0;
+  padding: 15px 30px;
   border-radius: 5px; }
 
 .map-footer {

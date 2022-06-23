@@ -12,8 +12,7 @@
     justify-content: space-between;
     margin: 0 auto;
     padding: 50px 30px 25px;
-    align-items: center;
-    width: 1110px; }
+    align-items: center; }
     @media (max-width: 1200px) {
       .reviews__nav {
         width: auto; } }
