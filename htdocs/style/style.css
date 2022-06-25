@@ -114,8 +114,7 @@ input {
   top: 80px;
   left: 115px; }
 .map-main__big-map {
-  width: 350px;
-  margin: 0 0 15px -15px;
+  width: 290px;
   position: relative; }
 .map-main__big-map-img {
   max-width: 100%; }
