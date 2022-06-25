@@ -109,25 +109,26 @@ input {
   position: relative;
   width: 290px; }
 
-.map-main__location {
-  position: absolute;
-  top: 80px;
-  left: 115px; }
-.map-main__big-map {
-  width: 350px;
-  margin: 0 0 15px -15px;
+.map-main {
   position: relative; }
-.map-main__big-map-img {
-  max-width: 100%; }
-.map-main__button {
-  color: #F2F2F2;
-  font-size: 18px;
-  padding: 15px 50px; }
-.map-main__button-div {
-  margin: 20px auto 150px;
-  background-color: #F46D40;
-  padding: 15px 30px;
-  border-radius: 5px; }
+  .map-main__location {
+    position: absolute;
+    top: 80px;
+    left: 115px; }
+  .map-main__big-map {
+    width: 290px;
+    position: relative; }
+  .map-main__big-map-img {
+    max-width: 100%; }
+  .map-main__button {
+    color: #F2F2F2;
+    font-size: 18px;
+    padding: 15px 50px; }
+  .map-main__button-div {
+    margin: 20px auto 150px;
+    background-color: #F46D40;
+    padding: 15px 30px;
+    border-radius: 5px; }
 
 .map-footer {
   border-radius: 0 0 5px 5px;
@@ -146,13 +147,13 @@ input {
 .map-top {
   margin: -50px auto 0; }
   .map-top__title {
-    font-size: 12ps;
+    font-size: 12px;
     font-weight: 400;
     color: #A4ACAD; }
   .map-top__input {
     border: #F2F2F2 1px solid;
     border-bottom: #A4ACAD 1px solid;
-    width: 300px; }
+    width: 284px; }
   .map-top__time {
     background-color: #FF9846;
     border-radius: 0px 0px 5px 5px;
@@ -170,7 +171,7 @@ input {
 .map-desktop {
   margin: 20px auto 0;
   position: relative;
-  max-width: 400px; }
+  max-width: 290px; }
 
 .content-line {
   border-top: 1px solid #A4ACAD;
