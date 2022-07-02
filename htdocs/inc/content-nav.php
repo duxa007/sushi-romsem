@@ -5,7 +5,7 @@
             <p class="content-nav__menu__text"><a class="content-nav__menu__link" href="#*">меню</a></p>
         </div>
         <div class="content-nav__logo">
-            <a href="#*"><img class="content-nav__img" src="png/logo.png"></a>
+            <a href="../index.php"><img class="content-nav__img" src="png/logo.png"></a>
         </div>
         <div class="content-nav__number">
             <p class="content-nav__number__top">Наш телефон</p>
@@ -24,8 +24,8 @@
             <p class="content-nav__time">работаем</p>
             <p class="content-nav__time">с 10:00 до 00:00</p>
         </div>
-        <a href="#*"  class="content-nav__text">Отзывы</a>
-        <a href="#*"  class="content-nav__text">Доставка и оплата</a>
+        <a href="../reviews.php"  class="content-nav__text">Отзывы</a>
+        <a href="../order-registration.php"  class="content-nav__text">Доставка и оплата</a>
         <div class="content-nav__logo">
             <a href="#*" class="content-nav__img"><img src="svg/search.svg"></a>
         </div>

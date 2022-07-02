@@ -69,7 +69,7 @@
                         <p class="card__subtitle">1050 грамм, 30 кусочков</p>
                         <div class="card__footer">
                             <p class="card__price">1500 СОМ</p>
-                            <button class="card__button">Хочу!</button>
+                            <a href="../product-card.php"> <button class="card__button">Хочу!</button></a>
                         </div>
                     </div>
                 </div>
@@ -80,7 +80,7 @@
                         <p class="card__subtitle">1120 грамм 40 кусочек</p>
                         <div class="card__footer">
                             <p class="card__price">1499 СОМ</p>
-                            <button class="card__button">Хочу!</button>
+                            <a href="../product-card.php"> <button class="card__button">Хочу!</button></a>
                         </div>
                     </div>
                 </div>
@@ -91,7 +91,7 @@
                         <p class="card__subtitle">1260 грамм, 36 кусочков</p>
                         <div class="card__footer">
                             <p class="card__price">1499 СОМ</p>
-                            <button class="card__button">Хочу!</button>
+                            <a href="../product-card.php"> <button class="card__button">Хочу!</button></a>
                         </div>
                     </div>
                 </div>
@@ -102,7 +102,7 @@
                         <p class="card__subtitle">1320 грамм 46 кусочек</p>
                         <div class="card__footer">
                             <p class="card__price">1559 СОМ</p>
-                            <button class="card__button">Хочу!</button>
+                            <a href="../product-card.php"> <button class="card__button">Хочу!</button></a>
                         </div>
                     </div>
                 </div>
@@ -113,7 +113,7 @@
                         <p class="card__subtitle">1020 грамм 40 кусочек</p>
                         <div class="card__footer">
                             <p class="card__price">1519 СОМ</p>
-                            <button class="card__button">Хочу!</button>
+                            <a href="../product-card.php"> <button class="card__button">Хочу!</button></a>
                         </div>
                     </div>
                 </div>
@@ -124,7 +124,7 @@
                         <p class="card__subtitle">1200 грамм 52 кусочек</p>
                         <div class="card__footer">
                             <p class="card__price">1469 СОМ</p>
-                            <button class="card__button">Хочу!</button>
+                            <a href="../product-card.php"> <button class="card__button">Хочу!</button></a>
                         </div>
                     </div>
                 </div>
@@ -135,7 +135,7 @@
                         <p class="card__subtitle">1100 грамм 32 кусочек</p>
                         <div class="card__footer">
                             <p class="card__price">1559 СОМ</p>
-                            <button class="card__button">Хочу!</button>
+                            <a href="../product-card.php"> <button class="card__button">Хочу!</button></a>
                         </div>
                     </div>
                 </div>
@@ -146,7 +146,7 @@
                         <p class="card__subtitle">1000 грамм 40 кусочек</p>
                         <div class="card__footer">
                             <p class="card__price">1479 СОМ</p>
-                            <button class="card__button">Хочу!</button>
+                            <a href="../product-card.php"> <button class="card__button">Хочу!</button></a>
                         </div>
                     </div>
                 </div>
@@ -157,7 +157,7 @@
                         <p class="card__subtitle">1270 грамм 50 кусочек</p>
                         <div class="card__footer">
                             <p class="card__price">1499 СОМ</p>
-                            <button class="card__button">Хочу!</button>
+                            <a href="../product-card.php"> <button class="card__button">Хочу!</button></a>
                         </div>
                     </div>
                 </div>

@@ -18,7 +18,7 @@
         <nav class="nav">
             <div class="nav-back">
                 <img class="nav-back__img" src="svg/back.svg">
-                <a class="nav-back__text" href="*#">Продолжить выбор</a>
+                <a class="nav-back__text" href="../index.php">Продолжить выбор</a>
             </div>
             <div class="content-nav__logo__order">
                 <a href="#*"><img class="content-nav__img" src="png/logo.png"></a>

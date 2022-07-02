@@ -30,59 +30,59 @@
                 <div class="content-main__menu">
                     <div class="content-main__chicken">
                         <img class="content-main__img" src="png/chicken.png" alt="">
-                        <a class="content-main__text">Чикен</a>
+                        <a href="../products.php" class="content-main__text">Чикен</a>
                     </div>
                     <div class="content-main__eel">
                         <img class="content-main__img" src="png/eel.png" alt="">
-                        <a class="content-main__text">С угрем</a>
+                        <a href="../products.php" class="content-main__text">С угрем</a>
                     </div>
                     <div class="content-main__corn-dog">
                         <img class="content-main__img" src="png/corn-dog.png" alt="">
-                        <a class="content-main__text">Корн дог</a>
+                        <a href="../products.php" class="content-main__text">Корн дог</a>
                     </div>
                     <div class="content-main__pizza">
                         <img class="content-main__img" src="png/pizza.png" alt="">
-                        <a class="content-main__text">Пицца</a>
+                        <a href="../products.php" class="content-main__text">Пицца</a>
                     </div>
                     <div class="content-main__stocks">
                         <img class="content-main__img" src="png/stocks.png" alt="">
-                        <a class="content-main__text">Акции</a>
+                        <a href="../products.php" class="content-main__text">Акции</a>
                     </div>
                     <div class="content-main__pizza-mini">
                         <img class="content-main__img-mini" src="png/pizza-mini.png" alt="">
-                        <a class="content-main__text-top">Пицца</a>
+                        <a href="../products.php" class="content-main__text-top">Пицца</a>
                     </div>
                     <div class="content-main__set-mini">
                         <img class="content-main__img-mini" src="png/set-mini.png" alt="">
-                        <a class="content-main__text-top">Сеты</a>
+                        <a href="../products.php" class="content-main__text-top">Сеты</a>
                     </div>
                     <div class="content-main__wok-mini">
                         <img class="content-main__img-mini" src="png/wok-mini.png" alt="">
-                        <a class="content-main__text-top">WOK</a>
+                        <a href="../products.php" class="content-main__text-top">WOK</a>
                     </div>
                     <div class="content-main__roles-mini">
                         <img class="content-main__img-mini" src="png/roles-mini.png" alt="">
-                        <a class="content-main__text-top">Роллы</a>
+                        <a href="../products.php" class="content-main__text-top">Роллы</a>
                     </div>
                     <div class="content-main__sushi-mini">
                         <img class="content-main__img-mini" src="png/sushi-mini.png" alt="">
-                        <a class="content-main__text-top">Суши</a>
+                        <a href="../products.php" class="content-main__text-top">Суши</a>
                     </div>
                     <div class="content-main__soup-mini">
                         <img class="content-main__img-mini" src="png/soup-mini.png" alt="">
-                        <a class="content-main__text-top">Супы</a>
+                        <a href="../products.php" class="content-main__text-top">Супы</a>
                     </div>
                     <div class="content-main__salad-mini">
                         <img class="content-main__img-mini" src="png/salad-mini.png" alt="">
-                        <a class="content-main__text-top">Салаты</a>
+                        <a href="../products.php" class="content-main__text-top">Салаты</a>
                     </div>
                     <div class="content-main__water-mini">
                         <img class="content-main__img-mini" src="png/water-mini.png" alt="">
-                        <a class="content-main__text-top">Напитки</a>
+                        <a href="../products.php" class="content-main__text-top">Напитки</a>
                     </div>
                     <div class="content-main__kombo-mini">
                         <img class="content-main__img-mini" src="png/kombo-mini.png" alt="">
-                        <a class="content-main__text">Комбо</a>
+                        <a href="../products.php"  class="content-main__text">Комбо</a>
                     </div>
                 </div>
             </div>
@@ -99,7 +99,7 @@
                         <p class="card__subtitle">1050 грамм, 30 кусочков</p>
                         <div class="card__footer">
                             <p class="card__price">1500 СОМ</p>
-                            <button class="card__button">Хочу!</button>
+                            <a href="../product-card.php"> <button class="card__button">Хочу!</button></a>
                         </div>
                     </div>
                     <div class="card">
@@ -108,7 +108,7 @@
                         <p class="card__subtitle">1260 грамм, 36 кусочков</p>
                         <div class="card__footer">
                             <p class="card__price">1150 СОМ</p>
-                            <button class="card__button">Хочу!</button>
+                            <a href="../product-card.php"> <button class="card__button">Хочу!</button></a>
                         </div>
                     </div>
                     <div class="card">
@@ -117,7 +117,7 @@
                         <p class="card__subtitle">2050 грамм, 45 кусочков</p>
                         <div class="card__footer">
                             <p class="card__price">2100 СОМ</p>
-                            <button class="card__button">Хочу!</button>
+                            <a href="../product-card.php"> <button class="card__button">Хочу!</button></a>
                         </div>
                     </div>
                     <img class="content-compilation__card__arrow-r" src="svg/arrow-r.svg">
@@ -136,19 +136,19 @@
         </div>
         <div class="order-wrapper">
             <div class="order">
-<!--                --><?php
-//                    include './inc/basket-desktop-empty.php' ;
-//                ?>
                 <?php
-                    include './inc/basket-desktop.php' ;
+                    include './inc/basket-desktop-empty.php' ;
                 ?>
+<!--                --><?php
+//                    include './inc/basket-desktop.php' ;
+//                ?>
                 <div class="map">
-<!--                    --><?php
-//                        include './inc/map-desktop-empty.php' ;
-//                    ?>
                     <?php
-                        include './inc/map-desktop.php' ;
+                        include './inc/map-desktop-empty.php' ;
                     ?>
+<!--                    --><?php
+//                        include './inc/map-desktop.php' ;
+//                    ?>
                 </div>
             </div>
         </div>
