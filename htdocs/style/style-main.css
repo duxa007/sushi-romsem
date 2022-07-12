@@ -10,7 +10,7 @@
 
   .content-main__carousel-block {
     border-radius: 5px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
     margin: 15px auto; }
     @media (max-width: 800px) {
       .content-main__carousel-block {
@@ -223,9 +223,11 @@
     display: flex;
     justify-content: space-between; }
     .content-compilation__card__arrow-l {
-      padding-left: 10px; }
+      padding-left: 10px;
+      cursor: pointer; }
     .content-compilation__card__arrow-r {
-      padding-right: 40px; }
+      padding-right: 40px;
+      cursor: pointer; }
 
 @media (max-width: 1150px) {
   .card1 {

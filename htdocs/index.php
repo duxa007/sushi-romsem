@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="style/style-content.css">
     <link rel="stylesheet" href="style/footer.css">
     <link rel="stylesheet" href="style/product-card.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 </head>
 <body class="body">
     <div class="general">
@@ -26,7 +28,39 @@
                 include './inc/content-nav.php' ;
             ?>
             <div class="content-main">
-                <div class="content-main__carousel-block"><img class="content-main__carousel" src="png/carousel-top.png"></div>
+                <div class="swiper swiper1">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <div class="content-main__carousel-block">
+                                <img class="content-main__carousel" src="png/carousel-top.png">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="content-main__carousel-block">
+                                <img class="content-main__carousel" src="png/carousel-top.png">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="content-main__carousel-block">
+                                <img class="content-main__carousel" src="png/carousel-top.png">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="content-main__carousel-block">
+                                <img class="content-main__carousel" src="png/carousel-top.png">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="content-main__carousel-block">
+                                <img class="content-main__carousel" src="png/carousel-top.png">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination swiper-pagination1"></div>
+                </div>
                 <div class="content-main__menu">
                     <div class="content-main__chicken">
                         <img class="content-main__img" src="png/chicken.png" alt="">
@@ -93,31 +127,109 @@
                 </div>
                 <div class="content-compilation__card">
                     <img class="content-compilation__card__arrow-l" src="svg/arrow-l.svg">
-                    <div class="card card1">
-                        <img class="card__img" src="png/card1.png">
-                        <p class="card__title">Саломон сет</p>
-                        <p class="card__subtitle">1050 грамм, 30 кусочков</p>
-                        <div class="card__footer">
-                            <p class="card__price">1500 СОМ</p>
-                            <a href="../product-card.php"> <button class="card__button">Хочу!</button></a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img class="card__img" src="png/card2.png">
-                        <p class="card__title">Филадельфия и <br>лосось сет</p>
-                        <p class="card__subtitle">1260 грамм, 36 кусочков</p>
-                        <div class="card__footer">
-                            <p class="card__price">1150 СОМ</p>
-                            <a href="../product-card.php"> <button class="card__button">Хочу!</button></a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img class="card__img" src="png/card3.png">
-                        <p class="card__title">Самая большая <br>Филадельфия</p>
-                        <p class="card__subtitle">2050 грамм, 45 кусочков</p>
-                        <div class="card__footer">
-                            <p class="card__price">2100 СОМ</p>
-                            <a href="../product-card.php"> <button class="card__button">Хочу!</button></a>
+                    <div class="swiper swiper2">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <div class="card card1">
+                                    <img class="card__img" src="png/card1.png">
+                                    <p class="card__title">Саломон сет</p>
+                                    <p class="card__subtitle">1050 грамм, 30 кусочков</p>
+                                    <div class="card__footer">
+                                        <p class="card__price">1500 СОМ</p>
+                                        <a href="../product-card.php"> <button class="card__button">Хочу!</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <img class="card__img" src="png/card2.png">
+                                    <p class="card__title">Филадельфия и <br>лосось сет</p>
+                                    <p class="card__subtitle">1260 грамм, 36 кусочков</p>
+                                    <div class="card__footer">
+                                        <p class="card__price">1150 СОМ</p>
+                                        <a href="../product-card.php"> <button class="card__button">Хочу!</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <img class="card__img" src="png/card3.png">
+                                    <p class="card__title">Самая большая <br>Филадельфия</p>
+                                    <p class="card__subtitle">2050 грамм, 45 кусочков</p>
+                                    <div class="card__footer">
+                                        <p class="card__price">2100 СОМ</p>
+                                        <a href="../product-card.php"> <button class="card__button">Хочу!</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card card1">
+                                    <img class="card__img" src="png/card1.png">
+                                    <p class="card__title">Саломон сет</p>
+                                    <p class="card__subtitle">1050 грамм, 30 кусочков</p>
+                                    <div class="card__footer">
+                                        <p class="card__price">1500 СОМ</p>
+                                        <a href="../product-card.php"> <button class="card__button">Хочу!</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <img class="card__img" src="png/card2.png">
+                                    <p class="card__title">Филадельфия и <br>лосось сет</p>
+                                    <p class="card__subtitle">1260 грамм, 36 кусочков</p>
+                                    <div class="card__footer">
+                                        <p class="card__price">1150 СОМ</p>
+                                        <a href="../product-card.php"> <button class="card__button">Хочу!</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <img class="card__img" src="png/card3.png">
+                                    <p class="card__title">Самая большая <br>Филадельфия</p>
+                                    <p class="card__subtitle">2050 грамм, 45 кусочков</p>
+                                    <div class="card__footer">
+                                        <p class="card__price">2100 СОМ</p>
+                                        <a href="../product-card.php"> <button class="card__button">Хочу!</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card card1">
+                                    <img class="card__img" src="png/card1.png">
+                                    <p class="card__title">Саломон сет</p>
+                                    <p class="card__subtitle">1050 грамм, 30 кусочков</p>
+                                    <div class="card__footer">
+                                        <p class="card__price">1500 СОМ</p>
+                                        <a href="../product-card.php"> <button class="card__button">Хочу!</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <img class="card__img" src="png/card2.png">
+                                    <p class="card__title">Филадельфия и <br>лосось сет</p>
+                                    <p class="card__subtitle">1260 грамм, 36 кусочков</p>
+                                    <div class="card__footer">
+                                        <p class="card__price">1150 СОМ</p>
+                                        <a href="../product-card.php"> <button class="card__button">Хочу!</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card">
+                                    <img class="card__img" src="png/card3.png">
+                                    <p class="card__title">Самая большая <br>Филадельфия</p>
+                                    <p class="card__subtitle">2050 грамм, 45 кусочков</p>
+                                    <div class="card__footer">
+                                        <p class="card__price">2100 СОМ</p>
+                                        <a href="../product-card.php"> <button class="card__button">Хочу!</button></a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <img class="content-compilation__card__arrow-r" src="svg/arrow-r.svg">
@@ -156,5 +268,36 @@
             include './inc/footer.php' ;
         ?>
     </div>
+    <script>
+        const swiper1 = new Swiper('.swiper1', {
+            loop: true,
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination1',
+                clickable: true,
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+    <script>
+        var swiper2 = new Swiper(".swiper2", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            pagination: {
+                el: ".swiper-pagination2",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.content-compilation__card__arrow-r',
+                prevEl: '.content-compilation__card__arrow-l',
+            },
+        });
+    </script>
 </body>
 </html>

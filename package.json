@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/duxa007/sushi-romsem#readme",
   "dependencies": {
-    "normalize.css": "^8.0.1"
+    "normalize.css": "^8.0.1",
+    "swiper": "^8.3.0"
   }
 }
