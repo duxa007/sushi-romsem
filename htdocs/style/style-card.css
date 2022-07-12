@@ -1,7 +1,10 @@
 .card {
-  background-color: #FFFFFF; }
+  background-color: #FFFFFF;
+  margin: 0 7px; }
   .card__img {
-    padding: 1px 19px 30px;
+    padding: 1px 0 30px;
+    display: flex;
+    margin: 0 auto;
     max-width: 100%; }
     @media (max-width: 700px) {
       .card__img {
